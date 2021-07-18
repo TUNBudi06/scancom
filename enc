@@ -63,48 +63,48 @@ function i90 {
 
 for i in {1..90}
   do
-     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/"$dat" $down/output/"$dat"" | bash
+     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/$dat $down/output/$dat" | bash
 done
 
 for i in {91..180}
   do
-     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/"$dat" $down/output/"$dat"" | bash
+     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/$dat $down/output/$dat" | bash
 done
 
 for i in {181..270}
   do
-     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/"$dat" $down/output/"$dat"" | bash
+     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/$dat $down/output/$dat" | bash
 done
 
 for i in {271..360}
   do
-     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/"$dat" $down/output/"$dat"" | bash
+     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/$dat $down/output/$dat" | bash
 done
 
 for i in {361..450}
   do
-     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/"$dat" $down/output/"$dat"" | bash
+     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/$dat $down/output/$dat" | bash
 done
 
 for i in {451..540}
   do
-     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/"$dat" $down/output/"$dat"" | bash
+     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/$dat $down/output/$dat" | bash
 done
 
 for i in {541..630}
   do
-     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/"$dat" $down/output/"$dat"" | bash
+     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/$dat $down/output/$dat" | bash
 done
 
 for i in {631..720}
   do
-     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/"$dat" $down/output/"$dat"" | bash
+     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/$dat $down/output/$dat" | bash
 done
 
 
 for i in {721..810}
   do
-     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/"$dat" $down/output/"$dat"" | bash
+     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/$dat $down/output/$dat" | bash
 done
 
 echo "721..810 DONE"
@@ -112,20 +112,18 @@ echo "721..810 DONE"
 
 for i in {811..900}
   do
-     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/"$dat" $down/output/"$dat"" | bash
+     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/$dat $down/output/$dat" | bash
 done
 
 for i in {901..990}
   do
-     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/"$dat" $down/output/"$dat"" | bash
+     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/$dat $down/output/$dat" | bash
 done
 
 for i in {991..1000}
   do
-     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/"$dat" $down/output/"$dat"" | bash
+     echo -e "qemu-i386 $PREFIX/share/quickbms/quickbms_4gb_files -a "$i $keyr" etc/toolcom.bms $dmp/$dat $down/output/$dat" | bash
 done
-
-
 }
 
 
