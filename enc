@@ -72,7 +72,7 @@ function i90 {
 cd $tx
 for i in {1..1000}
 do
-qemu-i386 $PREFIX/share/quickbms/quickbms -a "$1" etc/toolcom.bms /storage/emulated/0/Download/dmp/$dat /storage/emulated/0/Download/output/$dat
+qemu-i386 $PREFIX/share/quickbms/quickbms -a "$i" etc/toolcom.bms /storage/emulated/0/Download/dmp/$dat /storage/emulated/0/Download/output/$dat
 
 done
 }
@@ -81,7 +81,7 @@ function i90k {
 cd $tx
 for i in {1..1000}
 do
-qemu-i386 $PREFIX/share/quickbms/quickbms -a "$1 $keyr" etc/toolcom.bms /storage/emulated/0/Download/dmp/$dat /storage/emulated/0/Download/output/$dat
+qemu-i386 $PREFIX/share/quickbms/quickbms -a "$i $keyr" etc/toolcom.bms /storage/emulated/0/Download/dmp/$dat /storage/emulated/0/Download/output/$dat
 
 done
 }
